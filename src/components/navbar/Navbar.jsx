@@ -27,9 +27,10 @@ const Navbar = () => {
           <li className="items">
             <a href="#">services</a>
           </li>
-          <li className="items nav-btn">
-            <a href="#">Book us</a>
-            <MdOutlineArrowForwardIos className='nav-icon' />
+          <li className="nav-btn">
+          <button>Book us
+            <MdOutlineArrowForwardIos className='intro-icon' />
+            </button>  
           </li>
         </ul>
 

@@ -30,32 +30,38 @@ transition: color 0.6s ease;
 .items a:hover{
  color: #d56bd0;
 }
-.nav-btn{
+.nav-btn button{
  display: flex;
  align-items: center;
  gap: 0.6rem;
+ justify-content:center;
+
 }
-.nav-btn{
+.nav-btn button{
   border: 1.8px solid rgba(100, 13, 95, 0.76); 
   min-width: 130px; 
-  text-align: center;
+  width: fit-content;
   border-radius: 0.2rem;
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 0.7rem;
   transition: border 0.6s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    justify-content: center;
+    transition: color 0.6s ease;
+    color: rgba(100, 13, 95, 0.76);
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1rem;
 }
-.nav-btn:hover{
-    border: 1.8px solid #d56bd0;     
+.nav-btn button:hover{
+    color: #d56bd0;
+    border: 1.8px solid #d56bd0; 
 }
 
-.nav-icon {
-    font-size: 1.1rem;
-    color: rgba(100, 13, 95, 0.76);
-    cursor: pointer;
-    transition: color 0.6s ease;
-}
-.nav-icon:hover{
-    color: #d56bd0;
-}
+
 .hamburger{
     display: flex;
     align-items: center;
