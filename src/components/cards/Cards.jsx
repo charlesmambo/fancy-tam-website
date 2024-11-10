@@ -6,16 +6,18 @@ import IMG3 from '../../assets/img3.png'
 
 const Cards = () => {
   const slides = [
+    // <div className="card">
+    //     <img src={IMG1} alt='' />
+    // </div>,
     <div className="card">
-        <img src={IMG1} alt='' />
-    </div>,
-    <div className="card">
-        <img src={IMG2} alt='' />
+        <img src={IMG3} alt='' />
     </div>,
     <div className="card">
         <img src={IMG3} alt='' />
     </div>,
-    <div className="card two">Slide 3</div>,
+    <div className="card">
+        <img src={IMG3} alt='' />
+    </div>,
   ];
 
   const [curr, setCurr] = useState(0);

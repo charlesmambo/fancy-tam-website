@@ -1,0 +1,10 @@
+.catering-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.catering-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}

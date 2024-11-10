@@ -1,17 +1,19 @@
 .intro{
-    height: 75vh;
+    /* height: 100vh; */
     background: rgba(100, 13, 95, 0.17);
-    padding: 1.3rem 3rem;
+    padding: 4rem 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 .intro-content{
-    width: 42vw;
+    width: 38vw;
 }
 .intro-content h1{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
+    font-size: 1.8rem;
 }
 .intro-btn{
     margin-top: 1rem;
@@ -42,4 +44,20 @@
     color: #d56bd0;
 }
 
+.bg-left{
+    position: absolute;
+    left: 0;
+}
 
+.bg-left img{
+  width: 4vw;
+}
+
+.bg-right{
+    position: absolute;
+    right: 0;
+}
+
+.bg-right img{
+    width: 8vw;
+  }

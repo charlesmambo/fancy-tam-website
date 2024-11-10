@@ -1,0 +1,27 @@
+.service-card{
+    width: 21vw;
+    background-color: #270b4416;
+    height: auto;
+    min-height: 350px;
+}
+
+.service-card-img{
+    height: 180px;
+    border-radius: 0.3rem;
+}
+.service-card-img img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+.service-card-content{
+    padding: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+h4{
+    color: #270B44;
+}
