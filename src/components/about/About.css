@@ -46,3 +46,9 @@ h3 {
     border-bottom: 3px solid #640D5F;
     color: #640D5F;
 }
+
+@media only screen and (max-width: 600px){
+    .about{
+        padding:1.4rem;
+    }  
+}

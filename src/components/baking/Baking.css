@@ -1,0 +1,13 @@
+.baking{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    .baking{
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.4rem;
+    }   
+}

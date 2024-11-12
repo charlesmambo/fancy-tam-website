@@ -89,11 +89,12 @@ transition: color 0.6s ease;
     top: 5.5rem;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(100, 13, 96, 0.233);
+    background: rgb(141, 111, 139);
     width: 40%;
     border-radius: 0.17rem;
     padding: 1.5rem;
     display: none !important;
+    z-index: 1000;
 }
 .drop-down-nav,
 .drop-down-items{

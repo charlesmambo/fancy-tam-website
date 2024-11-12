@@ -86,3 +86,44 @@ form{
     resize: none;
     min-height: 200px;
 }
+
+@media only screen and (max-width: 600px) {
+    .contact{
+        padding: 1.4rem;
+    }
+    form{
+        margin-top: 1.4rem;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        justify-content:center;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .ctc-inputs,
+    .map{
+        width: 92vw;
+    }
+    .ctc-m-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.3rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ctc-card,
+    .ctc-m{
+
+        width: 92vw;
+  }
+  .form-control textarea{
+    resize: none;
+    min-height: 200px;
+    margin-bottom: 0;
+    padding-bottom: -2rem;
+}
+.intro-btn{
+margin-top: 0;
+}
+}

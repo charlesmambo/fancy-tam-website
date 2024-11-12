@@ -1,5 +1,5 @@
 .socials{
-    padding: 4rem;
+    padding: 6rem  4rem !important;
     position: relative;
 }
 .s-sub{
@@ -7,8 +7,8 @@
     align-items: center;
     gap: 0.6rem;
     position: fixed;
-    right: 4rem;
-    bottom: 4rem;
+    right: 1rem;
+    bottom: 4.3rem;
     background: rgba(100, 13, 96, 0.037);
 }
 .socials a{
@@ -28,4 +28,10 @@
 }
 .tik{
     font-size: 2rem !important;   
+}
+@media only screen and (max-width: 600px){
+    .socials{
+        padding: 4rem  1.4rem !important;
+        position: relative;
+    }  
 }

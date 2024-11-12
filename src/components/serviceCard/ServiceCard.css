@@ -25,3 +25,15 @@
 h4{
     color: #270B44;
 }
+
+@media only screen and (max-width: 600px) {
+    .service-card{
+        width: 92vw;
+        background-color: #270b4416;
+        height: auto;
+        min-height: 350px;
+    }
+    .service-card-content{
+        justify-content: center;
+    }
+  }

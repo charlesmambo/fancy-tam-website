@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import '../services/Service.css';
 import Catering from '../catering/Catering';
+import Baking from '../baking/Baking';
+import Deco from '../deco/Deco';
+import Event from '../event/Event';
+import Rental from '../rental/Rental';
+
 
 const Service = () => {
   const [activeCategory, setActiveCategory] = useState("Catering");
@@ -16,7 +21,7 @@ const Service = () => {
         <div className="line"></div>
       </div> 
       <div className="category-link">
-        {["Catering", "Baking", "Decoration", "Event Planner", "Hiring"].map((category) => (
+        {["Catering", "Baking", "Decoration", "Event Planner", "Rentals"].map((category) => (
           <h3
             key={category}
             onClick={() => handleCategoryClick(category)}
@@ -28,7 +33,11 @@ const Service = () => {
       </div>
 
       <div className="service-content">
-        <Catering/>
+        {activeCategory === "Catering" && <Catering />}
+        {activeCategory === "Baking" && <Baking />}
+        {activeCategory === "Decoration" && <Deco />}
+        {activeCategory === "Event Planner" && <Event />}
+        {activeCategory === "Rentals" && <Rental />}
       </div>
     </div>
   );

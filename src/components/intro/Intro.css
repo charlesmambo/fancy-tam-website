@@ -61,3 +61,21 @@
 .bg-right img{
     width: 8vw;
   }
+
+  @media only screen and (max-width: 600px) {
+    .intro{
+        padding: 1.4rem;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    .intro-content{
+        width: 92vw;
+    }
+    .intro-btn button{
+        width: 92vw;
+        margin: 1rem 0;
+    }
+    .intro-icon{
+        display: none;
+    }
+  }
