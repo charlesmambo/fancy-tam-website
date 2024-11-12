@@ -56,7 +56,6 @@ const Navbar = () => {
               </li>
               <li className="items nav-btn">
                 <a href="#">Book us</a>
-                <MdOutlineArrowForwardIos className='nav-icon' />
               </li>
             </ul>
           </div>

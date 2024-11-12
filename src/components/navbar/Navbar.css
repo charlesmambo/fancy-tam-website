@@ -119,6 +119,6 @@ transition: color 0.6s ease;
     }
     .drop-down-nav {
        display: flex !important;
-       width: 80%;
+       width: 92vw;
     }
   }
