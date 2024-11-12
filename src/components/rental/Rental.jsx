@@ -11,7 +11,7 @@ const Rental = () => {
         <ServiceCard 
             image={IMG2}
             title="Jumping castle"
-            description="Weddings, Birthday Parties, Corporate Events, Baby Showers & Gender Reveals"
+            description="Weddings, Birthday Parties, Corporate Events, Baby Showers..."
         />
         <ServiceCard 
         image={IMG1}
