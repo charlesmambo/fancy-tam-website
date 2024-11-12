@@ -37,3 +37,13 @@ h4{
         justify-content: center;
     }
   }
+
+  @media (min-width: 600px) and (max-width: 1000px){
+    .service-card{
+        width: 45vw;
+        background-color: #270b4416;
+        height: auto;
+        min-height: 350px;
+        
+    }
+}

@@ -75,3 +75,11 @@
     }
     
   }
+
+  @media (min-width: 600px) and (max-width: 1000px){
+    .card,
+    .carousel-container  {
+        width: 92vw;
+        height:340px;
+    }
+  }

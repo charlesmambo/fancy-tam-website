@@ -122,3 +122,12 @@ transition: color 0.6s ease;
        width: 92vw;
     }
   }
+
+  @media (min-width: 600px) and (max-width: 1000px){
+    nav{
+        padding: 1.4rem 2rem;
+    }
+    .nav-items{
+        gap: 4rem;
+       }
+}

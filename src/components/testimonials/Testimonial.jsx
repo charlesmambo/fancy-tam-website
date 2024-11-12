@@ -31,11 +31,11 @@ const Testimonial = () => {
             <div className="name">
                 <img src={pro} alt="" />
                 <div className="name-content">
-                    <h4>Sarah</h4>
-                    <p>11 October 2024</p>
+                    <h4>Carol</h4>
+                    <p>18 October 2024</p>
                 </div>
          </div>
-                <p>I hired a catering service for my event and was very impressed. The team was professional, the food was delicious, and the presentation was beautiful. Guests loved it! Highly recommend for quality service!</p>
+                <p>Fancy Tam's catering made my event unforgettable! The team was friendly, the food was outstanding, and the setup was beautiful. Guests loved it! Highly recommend for exceptional service!</p>
         </div>
       </div>
       </div>
