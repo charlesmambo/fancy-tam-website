@@ -9,18 +9,18 @@ const Social = () => {
   return (
     <div className='socials'>
         <div className="s-sub">
-       <a href="#">
+       <a href="https://wa.me/27693580050" target='blank'>
         <RiWhatsappFill className='s-icon'/>
        </a>
        <a href="#">
         <FaSquareInstagram className='s-icon'/>
        </a>
-       <a href="#">
+       <a href="https://www.facebook.com/profile.php?id=61568288684437" target='blank'>
        <FaFacebookSquare className='s-icon'/>
        </a>
-       <a href="#">
+       {/* <a href="#">
        <AiFillTikTok  className='s-icon tik'/>
-       </a>
+       </a> */}
        </div>
     </div>
   )

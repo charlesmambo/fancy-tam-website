@@ -20,7 +20,7 @@ const Intro = () => {
         <img src={bgLeft} alt="" />
       </div>
       <div className="intro-content">
-        <h1><span className='style-text'>Fancy Tam Events</span> makes every event special with expert catering, beautiful decor, reliable rentals, and custom cakes. Let us handle the details, so you can enjoy a seamless, memorable experience!</h1>
+        <h1><span className='style-text'>Fancy Tam Events</span> makes every event special with expert catering, beautiful decor, reliable party rentals, and custom cakes. Let us handle the details, so you can enjoy a seamless, memorable experience!</h1>
 
         <div className="intro-btn int-btn">
           <button onClick={scrollToContact}>

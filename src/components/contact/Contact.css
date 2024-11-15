@@ -31,6 +31,7 @@ form{
 .ctc-card{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     width: 21vw;
+    min-height: 136px;
     padding: 1.3rem;
     display: flex;
     flex-direction: column;

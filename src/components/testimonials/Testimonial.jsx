@@ -35,7 +35,7 @@ const Testimonial = () => {
                     <p>18 October 2024</p>
                 </div>
          </div>
-                <p>Fancy Tam's catering made my event unforgettable! The team was friendly, the food was outstanding, and the setup was beautiful. Guests loved it! Highly recommend for exceptional service!</p>
+                <p>Fancy Tam Events's catering made my event unforgettable! The team was friendly, the food was outstanding, and the setup was beautiful. Guests loved it! Highly recommend for exceptional service!</p>
         </div>
       </div>
       </div>
