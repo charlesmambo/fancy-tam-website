@@ -65,8 +65,7 @@ const Contact = () => {
         <div className="line"></div>
       </div>
 
-      <form onSubmit={handleSubmit} action="https://formsubmit.co/el/beyiri/fancytamevents@gmail.com
-" method="post">
+      <form onSubmit={handleSubmit}>
         {/* Contact information section */}
         <div className="ctc-m">
           <div className="ctc-m-content">
@@ -108,29 +107,31 @@ const Contact = () => {
             <label htmlFor="name">Name</label>
             <input
               type="text"
-              name="user_name"
+              name="name"
               placeholder='Your Name'
               value={formData.name}
               onChange={handleInputChange}
               required
+              className='user-name'
             />
           </div>
           <div className="form-control">
             <label htmlFor="email">Email</label>
             <input
               type="email"
-              name="user_email"
+              name="email"
               placeholder='example@gmail.com'
               value={formData.email}
               onChange={handleInputChange}
               required
+              
             />
           </div>
           <div className="form-control">
             <label htmlFor="phone">Phone</label>
             <input
               type="text"
-              name="user_phone"
+              name="phone"
               placeholder='+2761 3286 152'
               value={formData.phone}
               onChange={handleInputChange}
@@ -140,7 +141,7 @@ const Contact = () => {
           <div className="form-control">
             <label htmlFor="message">Message</label>
             <textarea
-              name="user_message"
+              name="message"
               placeholder='Your Message'
               value={formData.message}
               onChange={handleInputChange}

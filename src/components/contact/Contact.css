@@ -41,6 +41,7 @@ form{
     min-width: 250px;
     background-color: rgba(255, 170, 250, 0.08);
     border-radius: 0.2rem;
+    text-align: center;
 }
 .ctc-card h5{
     font-size: 1.2rem;
@@ -87,6 +88,10 @@ form{
 .form-control textarea{
     resize: none;
     min-height: 200px;
+}
+
+.user-name{
+text-transform: capitalize;
 }
 
 .success {
