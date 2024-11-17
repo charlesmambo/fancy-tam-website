@@ -15,7 +15,7 @@ const Social = () => {
        <a href="#">
         <FaSquareInstagram className='s-icon'/>
        </a>
-       <a href="https://www.facebook.com/profile.php?id=61568288684437" target='blank'>
+       <a href="https://www.facebook.com/profile.php?id=61569021777165&rdid=iDFKUnQqA6NTsX68&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fy9bNR31QwyFzxmHb%2F " target='blank'>
        <FaFacebookSquare className='s-icon'/>
        </a>
        {/* <a href="#">
