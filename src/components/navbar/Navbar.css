@@ -10,6 +10,11 @@ nav,
     display: flex;
     align-items: center; 
 }
+.logo-img{
+    width: 170px;
+   position: relative;
+   top: 0.3rem;
+}
 .logo a {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
@@ -121,6 +126,12 @@ transition: color 0.6s ease;
        display: flex !important;
        width: 92vw;
     }
+    
+    .logo-img{
+        width: 130px;
+       position: relative;
+       top: 0.3rem;
+    }
   }
 
   @media (min-width: 600px) and (max-width: 1000px){
@@ -130,4 +141,10 @@ transition: color 0.6s ease;
     .nav-items{
         gap: 4rem;
        }
+
+       .logo-img{
+        width: 130px;
+       position: relative;
+       top: 0.3rem;
+    }
 }

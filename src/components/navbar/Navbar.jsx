@@ -3,6 +3,7 @@ import '../navbar/Navbar.css';
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { LiaWindowCloseSolid } from "react-icons/lia";
+import Logo from '../../assets/f-logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +32,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <a href="#" onClick={(e) => refreshPage(e)}>Fancy Tam Events</a>
+        <a href="#" onClick={(e) => refreshPage(e)}>
+          <img src={Logo} alt=""  className='logo-img'/>
+          </a>
       </div>
       <ul className="nav-items">
         <li className="items">
