@@ -21,7 +21,7 @@ const Service = () => {
         <div className="line"></div>
       </div> 
       <div className="category-link">
-        {["Catering", "Baking", "Decoration", "Party Rentals"].map((category) => (
+        {[ "Baking", "Decoration", "Party Rentals"].map((category) => (
           <h3
             key={category}
             onClick={() => handleCategoryClick(category)}
@@ -33,7 +33,7 @@ const Service = () => {
       </div>
 
       <div className="service-content">
-        {activeCategory === "Catering" && <Catering />}
+        {/* {activeCategory === "Catering" && <Catering />} */}
         {activeCategory === "Baking" && <Baking />}
         {activeCategory === "Decoration" && <Deco />}
         {/* {activeCategory === "Event Planner" && <Event />} */}
